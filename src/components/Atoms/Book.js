@@ -4,8 +4,8 @@ const Book = () => (
   <div className="row">
     <div className="col s12 m3">
       <div className="card">
-        <div className="card-content">
-          <div className="row">
+        <div className="card-content" style={{ padding: '18px' }}>
+          <div className="row" style={{ marginBottom: '0' }}>
             <div className="col s3 m3">
               <img
                 style={{ height: '120px', width: '80px' }}
