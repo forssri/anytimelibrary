@@ -11,9 +11,15 @@ import Firebase, { FirebaseContext } from './components/Firebase';
 // Using React Context API, Provider can be used once to intialize
 // Using React Context API, Consumer other components can get the same instance
 ReactDOM.render(
-  <FirebaseContext.Provider value={new Firebase()}>
-    <App />
-  </FirebaseContext.Provider>,
+  <>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <FirebaseContext.Provider value={new Firebase()}>
+      <App />
+    </FirebaseContext.Provider>
+  </>,
   document.getElementById('root')
 );
 

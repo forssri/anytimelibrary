@@ -1,8 +1,9 @@
 import React from 'react';
+import Book from '../Atoms/Book';
 
 const HomePage = () => (
-  <div>
-    <h1>Home</h1>
+  <div style={{ padding: '40px' }}>
+    <Book />
   </div>
 );
 
